@@ -32,6 +32,7 @@ dependencies:
   cached_network_image: ^3.2.3
   flutter_cache_manager: ^3.3.1
   fluttertoast: ^8.2.2
+  dots_indicator: ^3.0.0
 
 
 dev_dependencies:
