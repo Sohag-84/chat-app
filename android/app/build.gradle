@@ -28,7 +28,7 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     namespace "com.example.chat_application"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 31
     ndkVersion flutter.ndkVersion
 
     compileOptions {

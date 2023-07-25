@@ -33,6 +33,7 @@ dependencies:
   flutter_cache_manager: ^3.3.1
   fluttertoast: ^8.2.2
   dots_indicator: ^3.0.0
+  google_sign_in: ^6.1.4
 
 
 dev_dependencies:

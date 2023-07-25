@@ -8,7 +8,6 @@ import 'package:package_info/package_info.dart';
 
 class ConfigStore extends GetxController {
   static ConfigStore get to => Get.find();
-
   bool isFirstOpen = false;
   PackageInfo? _platform;
   String get version => _platform?.version ?? '-';

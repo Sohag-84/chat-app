@@ -1,9 +1,10 @@
 // ignore_for_file: constant_identifier_names, prefer_const_constructors
 
-import 'package:chat_application/pages/welcome/index.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../pages/welcome/index.dart';
+import '../../pages/sign in/index.dart';
 import 'routes.dart';
 
 class AppPages {
@@ -18,13 +19,13 @@ class AppPages {
       page: () => WelcomePage(),
       binding: WelcomeBinding(),
     ),
-    /*
     GetPage(
       name: AppRoutes.SIGN_IN,
       page: () => SignInPage(),
       binding: SignInBinding(),
     ),
 
+    /*
     // check if needed to login or not
     GetPage(
       name: AppRoutes.Application,
