@@ -3,8 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../pages/welcome/index.dart';
-import '../../pages/sign in/index.dart';
+import 'package:chat_application/pages/welcome/index.dart';
+import 'package:chat_application/pages/sign in/index.dart';
+import 'package:chat_application/pages/application/index.dart';
+
 import 'routes.dart';
 
 class AppPages {
@@ -25,17 +27,16 @@ class AppPages {
       binding: SignInBinding(),
     ),
 
-    /*
     // check if needed to login or not
     GetPage(
       name: AppRoutes.Application,
       page: () => ApplicationPage(),
       binding: ApplicationBinding(),
       middlewares: [
-        RouteAuthMiddleware(priority: 1),
+        //RouteAuthMiddleware(priority: 1),
       ],
     ),
-
+    /*
     // 最新路由
     // 首页
     GetPage(name: AppRoutes.Contact, page: () => ContactPage(), binding: ContactBinding()),
